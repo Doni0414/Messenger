@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="356.0" prefWidth="448.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hichat_v1_1.RegistrationController">
+   <children>
+      <TextField fx:id="nameField" layoutX="150.0" layoutY="166.0" onAction="#sendName" />
+      <Label layoutX="158.0" layoutY="127.0" text="Enter your name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="enterButton" layoutX="312.0" layoutY="166.0" mnemonicParsing="false" onAction="#sendName" text="Enter" />
+   </children>
+</AnchorPane>
